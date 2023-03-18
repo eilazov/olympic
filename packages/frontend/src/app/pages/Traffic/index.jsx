@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import CustomTable from "../../components/CustomTable";
 
 const Traffic = () => {
   return (
-    <div>Traffic</div>
-  )
-}
+    <div>
+      <h1>Routes List</h1>
 
-export default Traffic
+      <CustomTable enableSearch={true} />
+    </div>
+  );
+};
+
+export default Traffic;

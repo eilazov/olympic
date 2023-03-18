@@ -1,9 +1,14 @@
-import React from 'react'
+import React from "react";
+import CustomTable from "../../components/CustomTable";
 
 const Csv = () => {
   return (
-    <div>Csv</div>
-  )
-}
+    <div>
+      <h1>CSV</h1>
 
-export default Csv
+      <CustomTable />
+    </div>
+  );
+};
+
+export default Csv;

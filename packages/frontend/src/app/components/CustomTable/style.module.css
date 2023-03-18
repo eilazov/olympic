@@ -1,0 +1,16 @@
+.container {
+    background: #FFFFFF;
+    border: 1px solid #E2E2EA;
+    border-radius: 20px;
+    overflow: hidden;
+    padding: 20px 10px;
+}
+
+.input {
+    border: 1px solid #E2E2EA;
+    border-radius: 10px;
+    width: 100%;
+    padding: 8px 44px ;
+    margin-bottom: 10px;
+    outline: none;
+}

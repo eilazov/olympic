@@ -1,4 +1,43 @@
 .container {
-    display: block;
+    width: 250px;
+    display: flex;
+    flex-direction: column;
+    border-right: 1px solid #E2E2EA;
+    padding: 50px 0;
+    
+}
 
+.navLink {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+    color: #171725;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.navLinkDecorator {
+    width: 5px;
+    height: 32px;
+    background: transparent;
+    border-radius: 0px 100px 100px 0px;
+    margin-right: 19px;
+}
+
+.navIcon {
+    margin-right: 22px;
+    fill: #92929D;
+}
+
+.navLink:global(.active) {
+    color: #0062FF;
+}
+
+.navLink:global(.active) .navLinkDecorator {
+    background: #0062FF;
+}
+
+.navLink:global(.active) .navIcon {
+    fill: #0062FF;
 }

@@ -1,0 +1,12 @@
+.container {
+    height: 70px;
+    border-bottom: 1px solid #E2E2EA;
+    display: flex;
+    align-items: center;
+}
+
+.logoWrapper {
+    width: 250px;
+    border-right: 1px solid #E2E2EA;
+    padding: 16px 20px;
+}

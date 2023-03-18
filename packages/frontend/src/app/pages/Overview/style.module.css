@@ -1,0 +1,9 @@
+.chartsRow {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.chartWrapper {
+    flex: 1;
+}
